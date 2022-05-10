@@ -1,0 +1,12 @@
+.sns-link-home {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sns-link-home li a{
+    color: white;
+}
+.sns-link-home li {
+    display: inline-block;
+    padding: 0 5px;
+}
