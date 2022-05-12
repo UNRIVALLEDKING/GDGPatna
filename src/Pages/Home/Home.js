@@ -5,7 +5,7 @@ import {
   AiFillYoutube,
   AiFillLinkedin,
 } from "react-icons/ai";
-import { BsTelegram, BsFacebook } from "react-icons/bs";
+import { BsTelegram, BsFacebook, BsDiscord } from "react-icons/bs";
 import "./Home.css";
 
 export default function Home() {
@@ -13,8 +13,8 @@ export default function Home() {
     <>
       <div className="container">
         <div
-          style={{ backgroundColor: "#1a73e8" }}
-          className="text-white p-4 p-md-5 my-4 rounded"
+          style={{ backgroundColor: "#1a73e8", marginTop: "9vh" }}
+          className="text-white p-4 p-md-5 mb-4 rounded"
         >
           <div className="row">
             <div className="col-md-6 px-0">
@@ -55,6 +55,11 @@ export default function Home() {
                     <AiFillLinkedin size={25} />
                   </a>
                 </li>
+                <li>
+                  <a target="_blank" href="">
+                    <BsDiscord size={25} />
+                  </a>
+                </li>
               </ul>
               <Button
                 style={{
@@ -87,6 +92,10 @@ export default function Home() {
               ></iframe>
             </div>
           </div>
+        </div>
+
+        <div className="row">
+          <div className="col-4"></div>
         </div>
       </div>
     </>
