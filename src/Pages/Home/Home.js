@@ -13,7 +13,10 @@ export default function Home() {
     <>
       <div className="container">
         <div
-          style={{ backgroundColor: "#1a73e8", marginTop: "9vh" }}
+          style={{
+            backgroundColor: "rgba(234, 67, 53, 0.85)",
+            marginTop: "10vh",
+          }}
           className="text-white p-4 p-md-5 mb-4 rounded"
         >
           <div className="row">
@@ -56,7 +59,7 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="">
+                  <a target="_blank" href="*">
                     <BsDiscord size={25} />
                   </a>
                 </li>
@@ -94,8 +97,51 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-4"></div>
+        <div className="p-3 p-md-3">
+          <div
+            style={{ backgroundColor: "rgba(219, 219, 219, 0.85)" }}
+            className="row rounded p-3 p-md-4 what_do"
+          >
+            <div className="col-12 col-md-5 pt-2 pt-0">
+              <h6>What do we do?</h6>
+              <p>
+                Google Developer Groups (GDGs) are for developers who are
+                interested in Google's developer technology.
+              </p>
+              <p>About different Google technologies</p>
+              <div>
+                <button>Web</button>
+                <button>Android</button>
+                <button>Firebase</button>
+                <button>Flutter</button>
+                <button>Google Cloud Platform</button>
+              </div>
+            </div>
+            <div className="col-12 col-md-2 mt-4 mt-md-0">
+              <h5>Connect</h5>
+              <p>
+                Meet local developers and technologists. All are welcome,
+                including those with diverse backgrounds and from various
+                companies and industries.
+              </p>
+            </div>
+            <div className="col-12 col-md-2 mt-4 mt-md-0">
+              <h5>Learn</h5>
+              <p>
+                Learn about a range of technical topics and gain new skills
+                through hands-on workshops, training, events, talks, and meet
+                ups - both online and in-person.
+              </p>
+            </div>
+            <div className="col-12 col-md-3 mt-4 mt-md-0">
+              <h5>Grow</h5>
+              <p>
+                Apply your knowledge and connections to build great products &
+                advance your skills, career, and network. Give back to your
+                community by helping others learn, too.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </>

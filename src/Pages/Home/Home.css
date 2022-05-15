@@ -10,3 +10,18 @@
     display: inline-block;
     padding: 0 5px;
 }
+.what_do p {
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 16px;
+}
+
+.what_do button {
+    border: none;
+    background-color: transparent;
+    margin: 2px;
+    padding: 3px 10px;
+    border-radius: 25px;
+    border: 2px solid rgb(143, 143, 143);
+    font-size: 12px;
+}
