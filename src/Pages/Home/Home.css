@@ -10,6 +10,10 @@
     display: inline-block;
     padding: 0 5px;
 }
+.what_do {
+    background-color: rgba(66, 133, 244, 0.85);
+    color: white;
+}
 .what_do p {
     font-size: 14px;
     font-weight: 350;
@@ -18,10 +22,59 @@
 
 .what_do button {
     border: none;
+    color: white;
+    background-color: transparent;
+    margin: 2px;
+    padding: 3px 10px;
+    border-radius: 25px;
+    border: 2px solid rgb(225, 225, 225);
+    font-size: 12px;
+}
+
+.event_btn {
+    border: none;
     background-color: transparent;
     margin: 2px;
     padding: 3px 10px;
     border-radius: 25px;
     border: 2px solid rgb(143, 143, 143);
     font-size: 12px;
+}
+.event_btn:hover {
+    background-color: rgba(216, 216, 216, 0.826);
+    transition: 0.7s;
+}
+.event_bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(https://i.ibb.co/f8WcNV3/2037368533dev.jpg);
+    background-position: center center;
+    height: 160px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    color: white;
+   
+}
+.event_bg h6 {
+    position: relative;
+    top: 80%;
+    left: 5%;
+}
+.event_card {
+    border-radius: 10px;
+    padding: 0;
+    background-color: white;
+}
+.event_card p {
+    font-size: 14px;
+    font-weight: 380;
+    line-height: 16px;
+    margin-bottom: 0;
+}
+.event_card button {
+    border: none;
+    background-color: transparent;
+    margin: 2px;
+    padding: 3px 10px;
+    border-radius: 25px;
+    font-size: 12px;
+    color: rgb(251, 188, 4);
 }

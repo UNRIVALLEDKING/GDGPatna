@@ -14,7 +14,7 @@ export default function Home() {
       <div className="container">
         <div
           style={{
-            backgroundColor: "rgba(234, 67, 53, 0.85)",
+            backgroundColor: "rgba(234, 67, 53, 0.95)",
             marginTop: "10vh",
           }}
           className="text-white p-4 p-md-5 mb-4 rounded"
@@ -98,10 +98,7 @@ export default function Home() {
         </div>
 
         <div className="p-3 p-md-3">
-          <div
-            style={{ backgroundColor: "rgba(219, 219, 219, 0.85)" }}
-            className="row rounded p-3 p-md-4 what_do"
-          >
+          <div className="row rounded p-3 p-md-4 what_do">
             <div className="col-12 col-md-5 pt-2 pt-0">
               <h6>What do we do?</h6>
               <p>
@@ -140,6 +137,59 @@ export default function Home() {
                 advance your skills, career, and network. Give back to your
                 community by helping others learn, too.
               </p>
+            </div>
+          </div>
+        </div>
+        <div className="row p-2 align-items-center my-4">
+          <div className="col-md-3">
+            <h5>Our Community Events</h5>
+            <p style={{ fontSize: "14px" }}>
+              Our events are open to newbies, developers, managers, and
+              organizations who are interested in Google's technologies or use
+              them as part of their projects.
+            </p>
+            <button className="event_btn">See Events</button>
+          </div>
+          <div className="col-md-3 px-1 mt-2 mt-md-0">
+            <div className="event_card">
+              <div className="event_bg">
+                <h6>DevFest India</h6>
+              </div>
+              <p className="p-2">
+                DevFest India is the largest annual developer’s fest organized
+                by Google Developer Groups across India. Join us for 3 exciting
+                days packed with learning, networking, experimenting and swags
+                for few winners
+              </p>
+              <button>More info</button>
+            </div>
+          </div>
+          <div className="col-md-3 px-1 mt-2 mt-md-0">
+            <div className="event_card">
+              <div className="event_bg">
+                <h6>DevFest India</h6>
+              </div>
+              <p className="p-2">
+                DevFest India is the largest annual developer’s fest organized
+                by Google Developer Groups across India. Join us for 3 exciting
+                days packed with learning, networking, experimenting and swags
+                for few winners
+              </p>
+              <button>More info</button>
+            </div>
+          </div>
+          <div className="col-md-3 px-1 mt-2 mt-md-0">
+            <div className="event_card">
+              <div className="event_bg">
+                <h6>DevFest India</h6>
+              </div>
+              <p className="p-2">
+                DevFest India is the largest annual developer’s fest organized
+                by Google Developer Groups across India. Join us for 3 exciting
+                days packed with learning, networking, experimenting and swags
+                for few winners
+              </p>
+              <button>More info</button>
             </div>
           </div>
         </div>

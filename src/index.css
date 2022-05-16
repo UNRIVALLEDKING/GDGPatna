@@ -4,7 +4,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  background: url(https://i.ibb.co/h2MNTPN/Google.jpg);
+  /* background: url(https://i.ibb.co/h2MNTPN/Google.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
