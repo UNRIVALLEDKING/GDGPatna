@@ -12,7 +12,10 @@ import { BsQuestionCircle } from "react-icons/bs";
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <nav
+        style={{ backgroundColor: "#fafafa" }}
+        className="navbar fixed-top navbar-expand-lg navbar-light"
+      >
         <div className="container">
           <a className="navbar-brand" href="*">
             <img

@@ -10,7 +10,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <>
-      <div className="footer bg-light">
+      <div className="footer">
         <div className="container">
           <div className="row pt-3 pb-2 align-items-center">
             <div className="col-md-8">
@@ -25,7 +25,7 @@ export default function Footer() {
               </a>
             </div>
             <div className="col-md-4">
-              <div className="d-flex justify-content-between align-items-center">
+              <div className="d-flex justify-content-between align-items-center mt-3 mt-md-0">
                 <div>
                   <h6 className="mb-0">Connect with us</h6>
                 </div>
@@ -72,7 +72,57 @@ export default function Footer() {
           </div>
         </div>
         <hr className="mb-0" />
-        <h5>hello</h5>
+        <div className="container footer_links">
+          <div style={{ maxWidth: "100%" }} className="row">
+            <h5>About</h5>
+            <div className="col-md-4">
+              <ul>
+                <li>
+                  <a href="">GDG Patna</a>
+                </li>
+                <li>
+                  <a href="">Google Developers Group</a>
+                </li>
+                <li>
+                  <a href="">Women Techmakers</a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-4">
+              <ul>
+                <li>
+                  <a href="">Code of Conducts</a>
+                </li>
+                <li>
+                  <a href="">Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href="">Community Guidelines</a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-4">
+              <ul>
+                <li>
+                  <a target="_blank" href="https://play.google.com/console">
+                    Google Play Console
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://console.cloud.google.com">
+                    GCP Console
+                  </a>
+                </li>
+
+                <li>
+                  <a target="_blank" href="https://console.firebase.google.com">
+                    Firebase Console
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
