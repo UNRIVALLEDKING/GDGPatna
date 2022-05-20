@@ -78,26 +78,28 @@ export default function Footer() {
             <div className="col-md-4">
               <ul>
                 <li>
-                  <a href="">GDG Patna</a>
+                  <a href="/">GDG Patna</a>
                 </li>
                 <li>
-                  <a href="">Google Developers Group</a>
+                  <a target="_blank" href="https://gdg.community.dev/">
+                    Google Developers Group
+                  </a>
                 </li>
                 <li>
-                  <a href="">Women Techmakers</a>
+                  <a href="/">Women Techmakers</a>
                 </li>
               </ul>
             </div>
             <div className="col-md-4">
               <ul>
                 <li>
-                  <a href="">Code of Conducts</a>
+                  <a href="/">Code of Conducts</a>
                 </li>
                 <li>
-                  <a href="">Terms & Conditions</a>
+                  <a href="/">Terms & Conditions</a>
                 </li>
                 <li>
-                  <a href="">Community Guidelines</a>
+                  <a href="/">Community Guidelines</a>
                 </li>
               </ul>
             </div>
