@@ -14,7 +14,7 @@ export default function Home() {
       <div className="container">
         <div
           style={{
-            backgroundColor: "rgba(234, 67, 53, 0.95)",
+            backgroundColor: "rgba(234, 67, 53, 1)",
             marginTop: "10vh",
           }}
           className="text-white p-4 p-md-5 mb-4 rounded"
@@ -140,8 +140,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="row p-2 align-items-center my-4">
-          <div className="col-md-3">
+        <div className="row p-2 align-items-center my-4 py-0">
+          <div className="col-md-3 comm_event">
             <h5>Our Community Events</h5>
             <p style={{ fontSize: "14px" }}>
               Our events are open to newbies, developers, managers, and

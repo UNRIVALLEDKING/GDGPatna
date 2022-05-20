@@ -4,12 +4,14 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  /* background: url(https://i.ibb.co/h2MNTPN/Google.jpg); */
+  background: url(https://i.ibb.co/h2MNTPN/Google.jpg) ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),url(https://i.ibb.co/h2MNTPN/Google.jpg) ;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {
