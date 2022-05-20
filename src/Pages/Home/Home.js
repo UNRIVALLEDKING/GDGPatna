@@ -5,7 +5,7 @@ import {
   AiFillYoutube,
   AiFillLinkedin,
 } from "react-icons/ai";
-import { BsTelegram, BsFacebook, BsDiscord } from "react-icons/bs";
+import { BsTelegram, BsFacebook } from "react-icons/bs";
 import "./Home.css";
 
 export default function Home() {
@@ -56,11 +56,6 @@ export default function Home() {
                     href="https://www.linkedin.com/company/gdg-patna"
                   >
                     <AiFillLinkedin size={25} />
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" href="*">
-                    <BsDiscord size={25} />
                   </a>
                 </li>
               </ul>
@@ -140,56 +135,108 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="row p-2 align-items-center my-4 py-0">
-          <div className="col-md-3 comm_event">
-            <h5>Our Community Events</h5>
-            <p style={{ fontSize: "14px" }}>
-              Our events are open to newbies, developers, managers, and
-              organizations who are interested in Google's technologies or use
-              them as part of their projects.
-            </p>
-            <button className="event_btn">See Events</button>
-          </div>
-          <div className="col-md-3 px-1 mt-2 mt-md-0">
-            <div className="event_card">
-              <div className="event_bg">
-                <h6>DevFest India</h6>
-              </div>
-              <p className="p-2">
-                DevFest India is the largest annual developer’s fest organized
-                by Google Developer Groups across India. Join us for 3 exciting
-                days packed with learning, networking, experimenting and swags
-                for few winners
+        <div className="px-2">
+          <div className="row p-2 align-items-center my-4 py-0">
+            <div className="col-md-3 comm_event">
+              <h5>Our Community Events</h5>
+              <p style={{ fontSize: "14px" }}>
+                Our events are open to newbies, developers, managers, and
+                organizations who are interested in Google's technologies or use
+                them as part of their projects.
               </p>
-              <button>More info</button>
+              <button className="event_btn">See Events</button>
+            </div>
+            <div className="col-md-3 px-1 mt-2 mt-md-0">
+              <div className="event_card">
+                <div className="event_bg">
+                  <h6>DevFest India</h6>
+                </div>
+                <p className="p-2">
+                  DevFest India is the largest annual developer’s fest organized
+                  by Google Developer Groups across India. Join us for 3
+                  exciting days packed with learning, networking, experimenting
+                  and swags for few winners
+                </p>
+                <button>More info</button>
+              </div>
+            </div>
+            <div className="col-md-3 px-1 mt-2 mt-md-0">
+              <div className="event_card">
+                <div className="event_bg">
+                  <h6>DevFest India</h6>
+                </div>
+                <p className="p-2">
+                  DevFest India is the largest annual developer’s fest organized
+                  by Google Developer Groups across India. Join us for 3
+                  exciting days packed with learning, networking, experimenting
+                  and swags for few winners
+                </p>
+                <button>More info</button>
+              </div>
+            </div>
+            <div className="col-md-3 px-1 mt-2 mt-md-0">
+              <div className="event_card">
+                <div className="event_bg">
+                  <h6>DevFest India</h6>
+                </div>
+                <p className="p-2">
+                  DevFest India is the largest annual developer’s fest organized
+                  by Google Developer Groups across India. Join us for 3
+                  exciting days packed with learning, networking, experimenting
+                  and swags for few winners
+                </p>
+                <button>More info</button>
+              </div>
             </div>
           </div>
-          <div className="col-md-3 px-1 mt-2 mt-md-0">
-            <div className="event_card">
-              <div className="event_bg">
-                <h6>DevFest India</h6>
-              </div>
-              <p className="p-2">
-                DevFest India is the largest annual developer’s fest organized
-                by Google Developer Groups across India. Join us for 3 exciting
-                days packed with learning, networking, experimenting and swags
-                for few winners
+        </div>
+
+        <div className="px-3">
+          <div className="row wtm bg-white rounded my-5 align-items-center">
+            <div className="col-md-9 px-5">
+              <h4>Women Techmakers Patna</h4>
+              <p>We're building a world where all women can thrive in tech.</p>
+              <p>
+                Google’s Women Techmakers program provides visibility,
+                community, and resources for women in technology.
               </p>
-              <button>More info</button>
+              <ul className="sns-link-home">
+                <li>
+                  <a target="_blank" href="/">
+                    <AiFillTwitterCircle size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <BsFacebook size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <BsTelegram size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <AiFillYoutube size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/">
+                    <AiFillLinkedin size={25} />
+                  </a>
+                </li>
+              </ul>
+
+              <button className="event_btn">WTM Patna</button>
+              <button className="event_btn">More info</button>
             </div>
-          </div>
-          <div className="col-md-3 px-1 mt-2 mt-md-0">
-            <div className="event_card">
-              <div className="event_bg">
-                <h6>DevFest India</h6>
-              </div>
-              <p className="p-2">
-                DevFest India is the largest annual developer’s fest organized
-                by Google Developer Groups across India. Join us for 3 exciting
-                days packed with learning, networking, experimenting and swags
-                for few winners
-              </p>
-              <button>More info</button>
+            <div className="col-md-3">
+              <img
+                className="img-fluid rounded"
+                src="https://i.ibb.co/2tBJqsf/AKed-OLSrna-AEUDHYWLXQNQAr-IGz-ICPNhd-DNLg6-VG-Bjso-Q-s900-c-k-c0x00ffffff-no-rj.jpg"
+                alt=""
+              />
             </div>
           </div>
         </div>

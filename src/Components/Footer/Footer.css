@@ -1,0 +1,12 @@
+.sns-link-foot {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sns-link-foot li a{
+    color: black;
+}
+.sns-link-foot li {
+    display: inline-block;
+    padding: 0 5px;
+}

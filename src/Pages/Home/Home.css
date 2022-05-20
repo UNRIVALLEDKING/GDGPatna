@@ -37,7 +37,7 @@
     margin: 2px;
     padding: 3px 10px;
     border-radius: 25px;
-    border: 2px solid rgb(143, 143, 143);
+    border: 2px solid rgb(225, 225, 225);
     font-size: 12px;
     color: white;
 }
@@ -45,6 +45,7 @@
     background-color: rgba(216, 216, 216, 0.826);
     transition: 0.5s;
     color: black;
+    border: 2px solid rgb(35, 35, 35);
 }
 .event_bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(https://i.ibb.co/f8WcNV3/2037368533dev.jpg);
@@ -85,4 +86,25 @@
     padding: 3.6rem 10px;
     color: white;
     border-radius: 10px;
+}
+
+.wtm .sns-link-home {
+    list-style-type: none;
+    padding: 0;
+}
+
+.wtm .sns-link-home li a{
+    color: black;
+}
+.wtm .sns-link-home li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.wtm .event_btn {
+    color: black;
+}
+.wtm .event_btn:hover {
+    border: 2px solid gray;
+    background-color: white;
 }
