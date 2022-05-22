@@ -10,7 +10,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <>
-      <div className="footer">
+      <div className="footer sticky-bottom">
         <div className="container">
           <div className="row pt-3 pb-2 align-items-center">
             <div className="col-md-8">

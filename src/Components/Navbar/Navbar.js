@@ -8,6 +8,9 @@ import {
 } from "react-icons/ai";
 import { MdOutlineEvent } from "react-icons/md";
 import { BsQuestionCircle } from "react-icons/bs";
+import { Link } from "react-router-dom";
+import Teams from "../../Pages/Teams/Teams";
+import Home from "../../Pages/Home/Home";
 
 export default function Navbar() {
   return (
@@ -42,18 +45,22 @@ export default function Navbar() {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="*">
-                  <AiOutlineHome style={{ color: "#ea4335" }} size={25} />
-                  <span>Home</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="*">
-                  <AiOutlineTeam style={{ color: "#4285f4" }} size={25} />
-                  <span>Team</span>
-                </a>
-              </li>
+              <Link to="/home">
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="*">
+                    <AiOutlineHome style={{ color: "#ea4335" }} size={25} />
+                    <span>Home</span>
+                  </a>
+                </li>
+              </Link>
+              <Link to="/team">
+                <li className="nav-item">
+                  <a className="nav-link" href="*">
+                    <AiOutlineTeam style={{ color: "#4285f4" }} size={25} />
+                    <span>Team</span>
+                  </a>
+                </li>
+              </Link>
               <li className="nav-item">
                 <a className="nav-link" href="*">
                   <MdOutlineEvent style={{ color: "#0f9d58" }} size={25} />{" "}

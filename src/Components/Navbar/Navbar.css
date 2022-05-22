@@ -55,6 +55,9 @@
     right: 10%;
  }
 
+ .navbar-nav a {
+   text-decoration: none;
+ }
  .nav-item a {
      font-size: 18px;
      font-weight: 500;
