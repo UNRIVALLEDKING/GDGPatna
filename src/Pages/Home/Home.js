@@ -157,7 +157,7 @@ export default function Home() {
                   exciting days packed with learning, networking, experimenting
                   and swags for few winners
                 </p>
-                <button>More info</button>
+                <button className="more">More info</button>
               </div>
             </div>
             <div className="col-md-3 px-1 mt-2 mt-md-0">
@@ -171,7 +171,7 @@ export default function Home() {
                   exciting days packed with learning, networking, experimenting
                   and swags for few winners
                 </p>
-                <button>More info</button>
+                <button className="more">More info</button>
               </div>
             </div>
             <div className="col-md-3 px-1 mt-2 mt-md-0">
@@ -185,7 +185,7 @@ export default function Home() {
                   exciting days packed with learning, networking, experimenting
                   and swags for few winners
                 </p>
-                <button>More info</button>
+                <button className="more">More info</button>
               </div>
             </div>
           </div>
@@ -193,7 +193,7 @@ export default function Home() {
 
         <div className="px-3">
           <div className="row wtm bg-white rounded my-5 align-items-center">
-            <div className="col-md-9 px-5">
+            <div className="col-md-9 px-5 pb-4 pb-md-0 order-2 order-md-1">
               <h4>Women Techmakers Patna</h4>
               <p>We're building a world where all women can thrive in tech.</p>
               <p>
@@ -231,7 +231,7 @@ export default function Home() {
               <button className="event_btn">WTM Patna</button>
               <button className="event_btn">More info</button>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 order-1 order-md-2">
               <img
                 className="img-fluid rounded"
                 src="https://i.ibb.co/2tBJqsf/AKed-OLSrna-AEUDHYWLXQNQAr-IGz-ICPNhd-DNLg6-VG-Bjso-Q-s900-c-k-c0x00ffffff-no-rj.jpg"

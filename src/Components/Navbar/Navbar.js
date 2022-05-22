@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <>
       <nav
-        style={{ backgroundColor: "#fafafa" }}
+        style={{ backgroundColor: "#fafafa", maxWidth: "100%" }}
         className="navbar fixed-top navbar-expand-lg navbar-light"
       >
         <div className="container">
@@ -61,12 +61,14 @@ export default function Navbar() {
                   </a>
                 </li>
               </Link>
-              <li className="nav-item">
-                <a className="nav-link" href="*">
-                  <MdOutlineEvent style={{ color: "#0f9d58" }} size={25} />{" "}
-                  <span>Events</span>
-                </a>
-              </li>
+              <Link to="/events">
+                <li className="nav-item">
+                  <a className="nav-link" href="*">
+                    <MdOutlineEvent style={{ color: "#0f9d58" }} size={25} />{" "}
+                    <span>Events</span>
+                  </a>
+                </li>
+              </Link>
               <li className="nav-item">
                 <a className="nav-link" href="*">
                   <AiOutlineComment style={{ color: "#fbbc04" }} size={25} />
