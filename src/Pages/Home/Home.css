@@ -108,3 +108,9 @@
     border: 2px solid gray;
     background-color: white;
 }
+
+@media (min-width: 700px) and (max-width: 900px) {
+    .wtm-img {
+        height: 350px;
+    }
+}

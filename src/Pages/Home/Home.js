@@ -15,12 +15,11 @@ export default function Home() {
         <div
           style={{
             backgroundColor: "rgba(234, 67, 53, 1)",
-            marginTop: "10vh",
           }}
-          className="text-white p-4 p-md-5 mb-4 rounded"
+          className="text-white p-4 p-lg-5 mb-4 rounded inner_content"
         >
           <div className="row">
-            <div className="col-md-6 px-0">
+            <div className="col-lg-6 px-0">
               <h1 className="display-6 fst-italic">
                 The Community of Developers, For Developers, By Developers
               </h1>
@@ -70,16 +69,16 @@ export default function Home() {
                 Learn More
               </Button>
               <Button
-                className="d-inline-block d-md-none"
+                className="d-inline-block d-lg-none"
                 style={{ color: "white", border: "1px solid white" }}
                 variant="outlined"
               >
                 Join Us
               </Button>
             </div>
-            <div className="col-md-6 px-2">
+            <div className="col col-lg-6 px-2">
               <iframe
-                className="rounded mt-3 mt-md-0"
+                className="rounded mt-3 mt-lg-0"
                 width="100%"
                 height="270"
                 src="https://www.youtube.com/embed/V6s5kjSoqzw"
@@ -94,7 +93,7 @@ export default function Home() {
 
         <div className="p-3 p-md-3">
           <div className="row rounded p-3 p-md-4 what_do">
-            <div className="col-12 col-md-5 pt-2 pt-0">
+            <div className="col-12 col-sm-6 col-lg-5 pt-2 pt-0">
               <h6>What do we do?</h6>
               <p>
                 Google Developer Groups (GDGs) are for developers who are
@@ -109,7 +108,7 @@ export default function Home() {
                 <button>Google Cloud Platform</button>
               </div>
             </div>
-            <div className="col-12 col-md-2 mt-4 mt-md-0">
+            <div className="col-12 col-sm-3 col-lg-2 mt-4 mt-md-0">
               <h5>Connect</h5>
               <p>
                 Meet local developers and technologists. All are welcome,
@@ -117,7 +116,7 @@ export default function Home() {
                 companies and industries.
               </p>
             </div>
-            <div className="col-12 col-md-2 mt-4 mt-md-0">
+            <div className="col-12 col-sm-3 col-lg-2 mt-4 mt-md-0">
               <h5>Learn</h5>
               <p>
                 Learn about a range of technical topics and gain new skills
@@ -125,7 +124,10 @@ export default function Home() {
                 ups - both online and in-person.
               </p>
             </div>
-            <div className="col-12 col-md-3 mt-4 mt-md-0">
+            <div
+              style={{ marginLeft: "auto" }}
+              className="col-12 col-sm-3 col-lg-3 mt-4 mt-md-0"
+            >
               <h5>Grow</h5>
               <p>
                 Apply your knowledge and connections to build great products &
@@ -137,7 +139,7 @@ export default function Home() {
         </div>
         <div className="px-2">
           <div className="row p-2 align-items-center my-4 py-0">
-            <div className="col-md-3 comm_event">
+            <div className="col-sm-6 col-lg-3 comm_event">
               <h5>Our Community Events</h5>
               <p style={{ fontSize: "14px" }}>
                 Our events are open to newbies, developers, managers, and
@@ -146,7 +148,7 @@ export default function Home() {
               </p>
               <button className="event_btn">See Events</button>
             </div>
-            <div className="col-md-3 px-1 mt-2 mt-md-0">
+            <div className="col-sm-6 col-lg-3 px-1 mt-2 mt-lg-0">
               <div className="event_card">
                 <div className="event_bg">
                   <h6>DevFest India</h6>
@@ -160,7 +162,7 @@ export default function Home() {
                 <button className="more">More info</button>
               </div>
             </div>
-            <div className="col-md-3 px-1 mt-2 mt-md-0">
+            <div className="col-sm-6 col-lg-3 px-1 mt-2 mt-lg-0">
               <div className="event_card">
                 <div className="event_bg">
                   <h6>DevFest India</h6>
@@ -174,7 +176,7 @@ export default function Home() {
                 <button className="more">More info</button>
               </div>
             </div>
-            <div className="col-md-3 px-1 mt-2 mt-md-0">
+            <div className="col-sm-6 col-lg-3 px-1 mt-2 mt-lg-0">
               <div className="event_card">
                 <div className="event_bg">
                   <h6>DevFest India</h6>
@@ -193,7 +195,7 @@ export default function Home() {
 
         <div className="px-3">
           <div className="row wtm bg-white rounded my-5 align-items-center">
-            <div className="col-md-9 px-5 pb-4 pb-md-0 order-2 order-md-1">
+            <div className="col-lg-9 px-5 pb-4 pb-lg-0 order-2 order-lg-1">
               <h4>Women Techmakers Patna</h4>
               <p>We're building a world where all women can thrive in tech.</p>
               <p>
@@ -231,9 +233,9 @@ export default function Home() {
               <button className="event_btn">WTM Patna</button>
               <button className="event_btn">More info</button>
             </div>
-            <div className="col-md-3 order-1 order-md-2">
+            <div className="col-lg-3 order-1 order-lg-2 text-center">
               <img
-                className="img-fluid rounded"
+                className="img-fluid rounded wtm-img"
                 src="https://i.ibb.co/2tBJqsf/AKed-OLSrna-AEUDHYWLXQNQAr-IGz-ICPNhd-DNLg6-VG-Bjso-Q-s900-c-k-c0x00ffffff-no-rj.jpg"
                 alt=""
               />

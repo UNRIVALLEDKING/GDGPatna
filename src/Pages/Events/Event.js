@@ -8,8 +8,8 @@ export default function Event() {
     <>
       <div className="container">
         <div
-          style={{ marginTop: "10vh", backgroundColor: "#4285f4" }}
-          className="text-white p-4 p-md-5 mb-4 rounded"
+          style={{ backgroundColor: "#4285f4" }}
+          className="text-white p-4 p-md-5 mb-4 rounded inner_content"
         >
           <div className="row align-items-center">
             <div className="col-md-8 px-0">

@@ -7,8 +7,8 @@ export default function Teams() {
   return (
     <>
       <div
-        style={{ borderBottom: "2px solid #6c757d", marginTop: "10vh" }}
-        className="text-center"
+        style={{ borderBottom: "2px solid #6c757d" }}
+        className="text-center inner_content"
       >
         <div className="w-100 text-center">
           <h2 className="d-inline-block text-intro px-3 pb-2 rounded">
@@ -18,7 +18,7 @@ export default function Teams() {
       </div>
       <div className="container">
         <div className="row align-items-center text-center">
-          <div className="col-12 col-md-3 pr-0">
+          <div className="col-12 col-sm-5 col-lg-3 pr-0">
             <img
               width="100%"
               className="rounded-circle img-fluid mt-2"
@@ -58,7 +58,7 @@ export default function Teams() {
               </li>
             </ul>
           </div>
-          <div className="col-12 col-md-9">
+          <div className="col-12 col-sm-7 col-lg-9">
             <p className="text-intro p-3 rounded">
               GDG Patna is a monthly tech meetup in Patna, that aims to bring
               the developer community together to learn, teach, share, and most
