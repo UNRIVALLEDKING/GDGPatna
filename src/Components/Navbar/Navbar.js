@@ -81,49 +81,14 @@ export default function Navbar() {
                   <span>FAQ</span>
                 </a>
               </li>
-
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="*"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <AiOutlineForm style={{ color: "#4285f4" }} size={25} /> Join
-                  Us
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a
-                      style={{ color: "#0f9d58" }}
-                      className="dropdown-item"
-                      href="*"
-                    >
-                      As a Member
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      style={{ color: "#fbbc04" }}
-                      className="dropdown-item"
-                      href="*"
-                    >
-                      As a Volunteer
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      style={{ color: "#ea4335" }}
-                      className="dropdown-item"
-                      href="*"
-                    >
-                      As a Leader
-                    </a>
-                  </li>
-                </ul>
-              </li>
+              <Link to="/join">
+                <li className="nav-item">
+                  <a className="nav-link" href="*">
+                    <AiOutlineForm style={{ color: "#4285f4" }} size={25} />{" "}
+                    Join Us
+                  </a>
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
