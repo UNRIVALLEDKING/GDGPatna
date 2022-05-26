@@ -4,6 +4,7 @@ import {
   AiFillTwitterCircle,
   AiFillYoutube,
   AiFillLinkedin,
+  AiFillInstagram,
 } from "react-icons/ai";
 import { BsTelegram, BsFacebook } from "react-icons/bs";
 import "./Home.css";
@@ -55,6 +56,11 @@ export default function Home() {
                     href="https://www.linkedin.com/company/gdg-patna"
                   >
                     <AiFillLinkedin size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.instagram.com/gdgpatna">
+                    <AiFillInstagram size={25} />
                   </a>
                 </li>
               </ul>
