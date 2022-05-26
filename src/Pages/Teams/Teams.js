@@ -140,7 +140,7 @@ export default function Teams() {
               <div class="picture">
                 <img
                   class="img-fluid"
-                  src="https://pbs.twimg.com/profile_images/1449749700727357453/1CEOoTpK_400x400.jpg"
+                  src="https://i.ibb.co/DDzpRHL/unrivalledking.jpg"
                   alt=""
                 />
               </div>
@@ -238,6 +238,7 @@ export default function Teams() {
               </ul>
             </div>
           </div>
+
           <div class="col-12 col-sm-6 col-md-4 col-lg-3">
             <div class="our-team rounded">
               <div class="picture">
@@ -282,6 +283,109 @@ export default function Teams() {
                   <a
                     target="_blank"
                     href="https://www.instagram.com/_nitesh_yadav_02"
+                  >
+                    <AiFillInstagram size={25} />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="our-team rounded">
+              <div class="picture">
+                <img
+                  class="img-fluid"
+                  src="https://i.ibb.co/DDzpRHL/unrivalledking.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="team-content">
+                <h3 class="name">Palak Kumari</h3>
+                <h4 class="title">Content writer</h4>
+              </div>
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://twitter.com/UNRIVALLED_KING">
+                    <AiFillTwitterCircle size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/unrivalled.king1"
+                  >
+                    <BsFacebook size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://t.me/UNRIVALLEDKING">
+                    <BsTelegram size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/unrivalledking"
+                  >
+                    <AiFillLinkedin size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/unrivalled___king"
+                  >
+                    <AiFillInstagram size={25} />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="our-team rounded">
+              <div class="picture">
+                <img
+                  class="img-fluid"
+                  src="https://i.ibb.co/DDzpRHL/unrivalledking.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="team-content">
+                <h3 class="name">Khushi Kumari</h3>
+                <h4 class="title">Content writer</h4>
+              </div>
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://twitter.com/UNRIVALLED_KING">
+                    <AiFillTwitterCircle size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/unrivalled.king1"
+                  >
+                    <BsFacebook size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://t.me/UNRIVALLEDKING">
+                    <BsTelegram size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/unrivalledking"
+                  >
+                    <AiFillLinkedin size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/unrivalled___king"
                   >
                     <AiFillInstagram size={25} />
                   </a>
