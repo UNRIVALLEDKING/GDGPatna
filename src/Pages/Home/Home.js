@@ -7,11 +7,13 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { BsTelegram, BsFacebook } from "react-icons/bs";
+import Navbar from "../../Components/Navbar/Navbar";
 import "./Home.css";
 
 export default function Home() {
   return (
     <>
+      <Navbar />
       <div className="container">
         <div
           style={{

@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "../../Components/Navbar/Navbar";
 
 export default function MemberForm() {
   return (
     <>
+      <Navbar />
       <div className="container">
         <div
           style={{ backgroundColor: "#4285f4" }}

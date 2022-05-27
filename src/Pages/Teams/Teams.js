@@ -6,10 +6,12 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { BsTelegram, BsFacebook } from "react-icons/bs";
+import Navbar from "../../Components/Navbar/Navbar";
 
 export default function Teams() {
   return (
     <>
+      <Navbar />
       <div
         style={{ borderBottom: "2px solid #6c757d" }}
         className="text-center inner_content"

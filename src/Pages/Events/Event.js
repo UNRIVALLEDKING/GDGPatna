@@ -2,10 +2,12 @@ import React from "react";
 import { MdOutlineEvent } from "react-icons/md";
 import { BiTimeFive } from "react-icons/bi";
 import { Button } from "@mui/material";
+import Navbar from "../../Components/Navbar/Navbar";
 
 export default function Event() {
   return (
     <>
+      <Navbar />
       <div className="container">
         <div
           style={{ backgroundColor: "#4285f4" }}

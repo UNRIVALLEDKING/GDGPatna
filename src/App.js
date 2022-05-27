@@ -11,12 +11,12 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
         <Routes>
-          <Route exact path="*" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/team" element={<Teams />} />
           <Route exact path="/events" element={<Event />} />
           <Route exact path="/join" element={<MemberForm />} />
+          <Route exact path="*" element={<Home />} />
         </Routes>
         <Footer />
       </BrowserRouter>

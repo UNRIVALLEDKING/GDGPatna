@@ -14,7 +14,7 @@ import Home from "../../Pages/Home/Home";
 
 export default function Navbar() {
   const location = window.location.pathname;
-  console.log(location);
+
   return (
     <>
       <nav
@@ -47,11 +47,11 @@ export default function Navbar() {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <Link to="/home">
+              <Link to="/">
                 <li className="nav-item">
                   <a
                     className={`nav-link ${
-                      location === `/home` || location === `/` ? "active" : " "
+                      location === `/` || location === `/*` ? "active" : " "
                     }`}
                     aria-current="page"
                     href="*"
