@@ -308,27 +308,27 @@ export default function Teams() {
               </div>
               <ul class="social">
                 <li>
-                  <a target="_blank" href="https://twitter.com/UNRIVALLED_KING">
+                  <a target="_blank" href="">
                     <AiFillTwitterCircle size={25} />
                   </a>
                 </li>
                 <li>
                   <a
                     target="_blank"
-                    href="https://www.facebook.com/unrivalled.king1"
+                    href="https://www.facebook.com/sizzling.palak.75"
                   >
                     <BsFacebook size={25} />
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://t.me/UNRIVALLEDKING">
+                  <a target="_blank" href="https://t.me/Palak2311">
                     <BsTelegram size={25} />
                   </a>
                 </li>
                 <li>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/in/unrivalledking"
+                    href="https://www.linkedin.com/in/palak-kumari-00475a227/"
                   >
                     <AiFillLinkedin size={25} />
                   </a>
@@ -336,7 +336,7 @@ export default function Teams() {
                 <li>
                   <a
                     target="_blank"
-                    href="https://www.instagram.com/unrivalled___king"
+                    href="https://www.instagram.com/palakkkk___________/"
                   >
                     <AiFillInstagram size={25} />
                   </a>

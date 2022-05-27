@@ -64,7 +64,7 @@ export default function Navbar() {
               <Link to="/team">
                 <li
                   className={`nav-link ${
-                    location === `/team` ? "active" : " "
+                    location === `/team` ? "activeteam" : " "
                   }`}
                 >
                   <a className="nav-link" href="*">
