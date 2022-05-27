@@ -298,7 +298,7 @@ export default function Teams() {
               <div class="picture">
                 <img
                   class="img-fluid"
-                  src="https://i.ibb.co/DDzpRHL/unrivalledking.jpg"
+                  src="https://i.ibb.co/Vp4G8Py/palak.jpg"
                   alt=""
                 />
               </div>

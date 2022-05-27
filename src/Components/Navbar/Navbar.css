@@ -90,5 +90,14 @@
 }
 
 .activeteam {
-  
+  border-bottom: 3px solid #4285f4;
+}
+.activeevent {
+  border-bottom: 3px solid #0f9d58;
+}
+.activeabout {
+  border-bottom: 3px solid #fbbc04;
+}
+.activefaq {
+  border-bottom: 3px solid #ea4335;
 }

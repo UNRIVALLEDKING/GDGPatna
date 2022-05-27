@@ -54,7 +54,6 @@ export default function Navbar() {
                       location === `/` || location === `/*` ? "active" : " "
                     }`}
                     aria-current="page"
-                    href="*"
                   >
                     <AiOutlineHome style={{ color: "#ea4335" }} size={25} />
                     <span>Home</span>
@@ -62,52 +61,56 @@ export default function Navbar() {
                 </li>
               </Link>
               <Link to="/team">
-                <li
-                  className={`nav-link ${
-                    location === `/team` ? "activeteam" : " "
-                  }`}
-                >
-                  <a className="nav-link" href="*">
+                <li className="nav-item">
+                  <a
+                    className={`nav-link ${
+                      location === `/team` ? "activeteam" : " "
+                    }`}
+                  >
                     <AiOutlineTeam style={{ color: "#4285f4" }} size={25} />
                     <span>Team</span>
                   </a>
                 </li>
               </Link>
               <Link to="/events">
-                <li
-                  className={`nav-link ${
-                    location === `/events` ? "active" : " "
-                  }`}
-                >
-                  <a className="nav-link" href="*">
+                <li className="nav-item">
+                  <a
+                    className={`nav-link ${
+                      location === `/events` ? "activeevent" : " "
+                    }`}
+                  >
                     <MdOutlineEvent style={{ color: "#0f9d58" }} size={25} />{" "}
                     <span>Events</span>
                   </a>
                 </li>
               </Link>
-              <li
-                className={`nav-link ${location === `/about` ? "active" : " "}`}
-              >
-                <a className="nav-link" href="*">
+              <li className="nav-item">
+                <a
+                  className={`nav-link ${
+                    location === `/about` ? "activeabout" : " "
+                  }`}
+                >
                   <AiOutlineComment style={{ color: "#fbbc04" }} size={25} />
                   <span>About</span>
                 </a>
               </li>
-              <li
-                className={`nav-link ${location === `/faq` ? "active" : " "}`}
-              >
-                <a className="nav-link" href="*">
+              <li className="nav-item">
+                <a
+                  className={`nav-link ${
+                    location === `/faq` ? "activefaq" : " "
+                  }`}
+                >
                   <BsQuestionCircle style={{ color: "#ea4335" }} size={25} />
                   <span>FAQ</span>
                 </a>
               </li>
               <Link to="/join">
-                <li
-                  className={`nav-link ${
-                    location === `/join` ? "active" : " "
-                  }`}
-                >
-                  <a className="nav-link" href="*">
+                <li className="nav-item">
+                  <a
+                    className={`nav-link ${
+                      location === `/join` ? "activeteam" : " "
+                    }`}
+                  >
                     <AiOutlineForm style={{ color: "#4285f4" }} size={25} />{" "}
                     Join Us
                   </a>
