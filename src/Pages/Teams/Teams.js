@@ -5,7 +5,7 @@ import {
   AiFillLinkedin,
   AiFillInstagram,
 } from "react-icons/ai";
-import { BsTelegram, BsFacebook } from "react-icons/bs";
+import { BsTelegram, BsFacebook, BsStackOverflow } from "react-icons/bs";
 import Navbar from "../../Components/Navbar/Navbar";
 
 export default function Teams() {
@@ -85,8 +85,8 @@ export default function Teams() {
             Our Team
           </h2>
         </div>
-        <div className="row">
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div className="row justify-content-center">
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
             <div class="our-team rounded">
               <div class="picture">
                 <img
@@ -137,18 +137,18 @@ export default function Teams() {
               </ul>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
             <div class="our-team rounded">
               <div class="picture">
                 <img
                   class="img-fluid"
-                  src="https://i.ibb.co/DDzpRHL/unrivalledking.jpg"
+                  src="https://i.ibb.co/w0VcmVR/priyanshu.jpg"
                   alt=""
                 />
               </div>
               <div class="team-content">
                 <h3 class="name">Priyanshu Sinha</h3>
-                <h4 class="title">Research Lead</h4>
+                <h4 class="title">Technical Lead</h4>
               </div>
               <ul class="social">
                 <li>
@@ -189,7 +189,7 @@ export default function Teams() {
             </div>
           </div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
             <div class="our-team rounded">
               <div class="picture">
                 <img
@@ -237,11 +237,20 @@ export default function Teams() {
                     <AiFillInstagram size={25} />
                   </a>
                 </li>
+
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://stackoverflow.com/users/17525745/unrivalledking"
+                  >
+                    <BsStackOverflow size={25} />
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
             <div class="our-team rounded">
               <div class="picture">
                 <img
@@ -293,7 +302,7 @@ export default function Teams() {
             </div>
           </div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
             <div class="our-team rounded">
               <div class="picture">
                 <img
@@ -344,7 +353,7 @@ export default function Teams() {
               </ul>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
             <div class="our-team rounded">
               <div class="picture">
                 <img
@@ -355,41 +364,30 @@ export default function Teams() {
               </div>
               <div class="team-content">
                 <h3 class="name">Khushi Kumari</h3>
-                <h4 class="title">Content writer</h4>
+                <h4 class="title">Content Creator</h4>
               </div>
               <ul class="social">
                 <li>
-                  <a target="_blank" href="https://twitter.com/UNRIVALLED_KING">
+                  <a target="_blank" href="https://twitter.com/Khushi20335450">
                     <AiFillTwitterCircle size={25} />
                   </a>
                 </li>
                 <li>
-                  <a
-                    target="_blank"
-                    href="https://www.facebook.com/unrivalled.king1"
-                  >
+                  <a target="_blank" href="https://www.facebook.com/khushi6299">
                     <BsFacebook size={25} />
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://t.me/UNRIVALLEDKING">
+                  <a target="_blank" href="https://t.me/khushi6299">
                     <BsTelegram size={25} />
                   </a>
                 </li>
                 <li>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/in/unrivalledking"
+                    href="https://www.linkedin.com/in/khushi-kumari-4bb23023a/"
                   >
                     <AiFillLinkedin size={25} />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    target="_blank"
-                    href="https://www.instagram.com/unrivalled___king"
-                  >
-                    <AiFillInstagram size={25} />
                   </a>
                 </li>
               </ul>

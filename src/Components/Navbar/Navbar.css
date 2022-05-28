@@ -33,7 +33,7 @@
     transition: all 0.2s;
   }
   .navbar-toggler .icon-bar + .icon-bar {
-    margin-top: 4px;
+    margin-top: 3.5px;
   }
   .navbar-toggler .icon-bar:nth-of-type(1) {
     -webkit-transform: rotate(0);
@@ -61,13 +61,13 @@
  .nav-item a {
      font-size: 18px;
      font-weight: 500;
-     margin-left: 5px;
+     margin-left: 3.5px;
  }
  .nav-item a span {
     padding-left: 10px;
  }
  .active {
-    border-bottom: 3px solid #ea4335;
+    border-bottom: 3.5px solid #ea4335;
 }
 .navbar {
 	padding-bottom: 0.2rem;
@@ -90,14 +90,14 @@
 }
 
 .activeteam {
-  border-bottom: 3px solid #4285f4;
+  border-bottom: 3.5px solid #4285f4;
 }
 .activeevent {
-  border-bottom: 3px solid #0f9d58;
+  border-bottom: 3.5px solid #0f9d58;
 }
 .activeabout {
-  border-bottom: 3px solid #fbbc04;
+  border-bottom: 3.5px solid #fbbc04;
 }
 .activefaq {
-  border-bottom: 3px solid #ea4335;
+  border-bottom: 3.5px solid #ea4335;
 }

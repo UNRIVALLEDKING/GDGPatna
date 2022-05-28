@@ -13,7 +13,7 @@
 .our-team {
     padding: 30px 0 40px;
     margin-bottom: 30px;
-    background-color: #f7f5ec;
+    background-color: white;
     text-align: center;
     overflow: hidden;
     position: relative;
@@ -109,5 +109,5 @@
   
   .our-team .social li a:hover {
     color: #1369ce;
-    background-color: #f7f5ec;
+    background-color: white;
   }

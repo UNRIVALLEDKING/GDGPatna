@@ -84,16 +84,18 @@ export default function Navbar() {
                   </a>
                 </li>
               </Link>
-              <li className="nav-item">
-                <a
-                  className={`nav-link ${
-                    location === `/about` ? "activeabout" : " "
-                  }`}
-                >
-                  <AiOutlineComment style={{ color: "#fbbc04" }} size={25} />
-                  <span>About</span>
-                </a>
-              </li>
+              <Link to="/about">
+                <li className="nav-item">
+                  <a
+                    className={`nav-link ${
+                      location === `/about` ? "activeabout" : " "
+                    }`}
+                  >
+                    <AiOutlineComment style={{ color: "#fbbc04" }} size={25} />
+                    <span>About</span>
+                  </a>
+                </li>
+              </Link>
               <li className="nav-item">
                 <a
                   className={`nav-link ${

@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   background: url(https://i.ibb.co/h2MNTPN/Google.jpg) ;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),url(https://i.ibb.co/h2MNTPN/Google.jpg) ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),url(https://i.ibb.co/h2MNTPN/Google.jpg) ;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
