@@ -40,12 +40,15 @@ export default function Teams() {
 
             <ul className="sns-link-home">
               <li>
-                <a target="_blank" href="https://twitter.com/gdgpatna">
+                <a target="_blank" href="https://twitter.com/anuragceg">
                   <AiFillTwitterCircle size={25} />
                 </a>
               </li>
               <li>
-                <a target="_blank" href="https://www.facebook.com/gdgpatna">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/anuragisverma"
+                >
                   <BsFacebook size={25} />
                 </a>
               </li>
@@ -55,10 +58,7 @@ export default function Teams() {
                 </a>
               </li>
               <li>
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/company/gdg-patna"
-                >
+                <a target="_blank" href="https://www.linkedin.com/in/anuragver">
                   <AiFillLinkedin size={25} />
                 </a>
               </li>
@@ -152,14 +152,14 @@ export default function Teams() {
               </div>
               <ul class="social">
                 <li>
-                  <a target="_blank" href="https://twitter.com/Shekhar44007302">
+                  <a target="_blank" href="https://twitter.com/priyanshu0312">
                     <AiFillTwitterCircle size={25} />
                   </a>
                 </li>
                 <li>
                   <a
                     target="_blank"
-                    href="https://www.facebook.com/shekhar.sahani.393"
+                    href="https://www.facebook.com/priyanshu.sinha.0312"
                   >
                     <BsFacebook size={25} />
                   </a>
@@ -349,7 +349,7 @@ export default function Teams() {
               <div class="picture">
                 <img
                   class="img-fluid"
-                  src="https://i.ibb.co/DDzpRHL/unrivalledking.jpg"
+                  src="https://i.ibb.co/bKZwYy5/khushi2.jpg"
                   alt=""
                 />
               </div>
