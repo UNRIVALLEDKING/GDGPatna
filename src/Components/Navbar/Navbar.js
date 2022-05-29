@@ -48,7 +48,7 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <Link to="/">
-                <li className="nav-item">
+                <li className="nav-item align-items-center">
                   <a
                     className={`nav-link ${
                       location === `/` || location === `/*` ? "active" : " "
@@ -56,7 +56,7 @@ export default function Navbar() {
                     aria-current="page"
                   >
                     <AiOutlineHome style={{ color: "#ea4335" }} size={25} />
-                    <span>Home</span>
+                    <span style={{ paddingLeft: "5px" }}>Home</span>
                   </a>
                 </li>
               </Link>
@@ -68,7 +68,7 @@ export default function Navbar() {
                     }`}
                   >
                     <AiOutlineTeam style={{ color: "#4285f4" }} size={25} />
-                    <span>Team</span>
+                    <span style={{ paddingLeft: "5px" }}>Team</span>
                   </a>
                 </li>
               </Link>
@@ -80,7 +80,7 @@ export default function Navbar() {
                     }`}
                   >
                     <MdOutlineEvent style={{ color: "#0f9d58" }} size={25} />{" "}
-                    <span>Events</span>
+                    <span style={{ paddingLeft: "5px" }}>Events</span>
                   </a>
                 </li>
               </Link>
@@ -92,7 +92,7 @@ export default function Navbar() {
                     }`}
                   >
                     <AiOutlineComment style={{ color: "#fbbc04" }} size={25} />
-                    <span>About</span>
+                    <span style={{ paddingLeft: "5px" }}>About</span>
                   </a>
                 </li>
               </Link>
@@ -103,21 +103,22 @@ export default function Navbar() {
                   }`}
                 >
                   <BsQuestionCircle style={{ color: "#ea4335" }} size={25} />
-                  <span>FAQ</span>
+                  <span style={{ paddingLeft: "5px" }}>FAQ</span>
                 </a>
               </li>
-              <Link to="/join">
-                <li className="nav-item">
-                  <a
-                    className={`nav-link ${
-                      location === `/join` ? "activeteam" : " "
-                    }`}
-                  >
-                    <AiOutlineForm style={{ color: "#4285f4" }} size={25} />{" "}
-                    Join Us
-                  </a>
-                </li>
-              </Link>
+
+              <li className="nav-item d-lg-block d-none">
+                <a
+                  className={`nav-link ${
+                    location === `/join` ? "activeteam" : " "
+                  }`}
+                  href="https://gdg.community.dev/gdg-patna/"
+                  target="_blank"
+                >
+                  <AiOutlineForm style={{ color: "#4285f4" }} size={25} /> Join
+                  Us
+                </a>
+              </li>
             </ul>
           </div>
         </div>

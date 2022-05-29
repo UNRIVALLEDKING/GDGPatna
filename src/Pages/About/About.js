@@ -14,13 +14,24 @@ export default function About() {
         >
           <div className="row">
             <div className="col px-0">
-              <h1 className="display-3 text-center">GDG Patna</h1>
-              <h6 className="display-6 fst-italic">
+              <h1 className="display-3 text-center">
+                Google Developers Group Patna
+              </h1>
+              <h6
+                style={{ fontSize: "35px", fontWeight: "300" }}
+                className="fst-italic text-center border-bottom py-2"
+              >
                 The Community of Developers, For Developers, By Developers
               </h6>
               <p className="lead my-3">
-                Our ultimate goal is to bring together all developers of Patna
-                to create a thriving developer ecosystem.
+                When you join a Google Developer Group, you’ll have the
+                opportunity to meet local developers with similar interests in
+                technology. A GDG meetup event includes talks on a wide range of
+                technical topics where you can learn new skills through hands-on
+                workshops. The community prides itself on being an inclusive
+                environment where everyone and anyone interested in tech - from
+                beginner developers to experienced professionals - all are
+                welcome to join.
               </p>
             </div>
           </div>
