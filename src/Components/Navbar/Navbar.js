@@ -96,16 +96,18 @@ export default function Navbar() {
                   </a>
                 </li>
               </Link>
-              <li className="nav-item">
-                <a
-                  className={`nav-link ${
-                    location === `/faq` ? "activefaq" : " "
-                  }`}
-                >
-                  <BsQuestionCircle style={{ color: "#ea4335" }} size={25} />
-                  <span style={{ paddingLeft: "5px" }}>FAQ</span>
-                </a>
-              </li>
+              <Link to="/faq">
+                <li className="nav-item">
+                  <a
+                    className={`nav-link ${
+                      location === `/faq` ? "activefaq" : " "
+                    }`}
+                  >
+                    <BsQuestionCircle style={{ color: "#ea4335" }} size={25} />
+                    <span style={{ paddingLeft: "5px" }}>FAQ</span>
+                  </a>
+                </li>
+              </Link>
 
               <li className="nav-item d-lg-block d-none">
                 <a

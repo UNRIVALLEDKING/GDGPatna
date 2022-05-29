@@ -19,7 +19,9 @@ export default function Event() {
               <p>
                 Our events are open to newbies, developers, managers, and
                 organizations who are interested in Google's technologies or use
-                them as part of their projects.
+                them as part of their projects. We have planned so many Virtual
+                (Online) and In-person (Offline) events and Hackathons for
+                everyone.
               </p>
             </div>
             <div className="col-md-4">

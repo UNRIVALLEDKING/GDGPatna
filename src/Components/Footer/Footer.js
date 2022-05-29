@@ -14,7 +14,11 @@ export default function Footer() {
         <div className="container">
           <div className="row pt-3 pb-2 align-items-center">
             <div className="col-md-8">
-              <a className="navbar-brand text-dark" href="*">
+              <a
+                style={{ textDecoration: "none" }}
+                className="text-dark"
+                href="*"
+              >
                 <img
                   style={{ width: "50px", marginRight: "5px" }}
                   src="https://i.ibb.co/Hp0SX43/gdg.png"

@@ -66,9 +66,7 @@
  .nav-item a span {
     padding-left: 10px;
  }
- .active {
-    border-bottom: 3.5px solid #ea4335;
-}
+
 .navbar {
 	padding-bottom: 0.2rem;
 }
@@ -89,6 +87,10 @@
   font-weight: 450;
 }
 
+@media only screen and (min-width: 900px) and (max-width: 2000px) {
+  .active {
+    border-bottom: 3.5px solid #ea4335;
+}
 .activeteam {
   border-bottom: 3.5px solid #4285f4;
 }
@@ -100,4 +102,6 @@
 }
 .activefaq {
   border-bottom: 3.5px solid #ea4335;
+}
+  
 }

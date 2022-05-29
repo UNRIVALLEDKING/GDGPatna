@@ -237,15 +237,6 @@ export default function Teams() {
                     <AiFillInstagram size={25} />
                   </a>
                 </li>
-
-                <li>
-                  <a
-                    target="_blank"
-                    href="https://stackoverflow.com/users/17525745/unrivalledking"
-                  >
-                    <BsStackOverflow size={25} />
-                  </a>
-                </li>
               </ul>
             </div>
           </div>

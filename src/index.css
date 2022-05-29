@@ -25,4 +25,12 @@ body::-webkit-scrollbar {
 
 .inner_content{
   margin-top: 70px;
+  
+}
+
+.faq:nth-child(odd) {
+  border: 2px solid white;
+}
+.faq:nth-child(even) {
+  border: 2px solid rgb(0, 255, 229);
 }
