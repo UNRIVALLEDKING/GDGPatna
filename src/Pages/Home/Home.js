@@ -7,6 +7,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { BsTelegram, BsFacebook } from "react-icons/bs";
+import { Link } from "react-router-dom";
 import Navbar from "../../Components/Navbar/Navbar";
 import "./Home.css";
 
@@ -66,20 +67,23 @@ export default function Home() {
                   </a>
                 </li>
               </ul>
-              <Button
-                style={{
-                  color: "white",
-                  border: "1px solid white",
-                  marginRight: "5px",
-                }}
-                variant="outlined"
-              >
-                Learn More
-              </Button>
+              <Link style={{ textDecoration: "none" }} to="/about">
+                <Button
+                  style={{
+                    color: "white",
+                    border: "1px solid white",
+                    marginRight: "5px",
+                  }}
+                  variant="outlined"
+                >
+                  Learn More
+                </Button>
+              </Link>
               <Button
                 className="d-inline-block d-lg-none"
                 style={{ color: "white", border: "1px solid white" }}
                 variant="outlined"
+                href="https://gdg.community.dev/gdg-patna/"
               >
                 Join Us
               </Button>
@@ -154,7 +158,9 @@ export default function Home() {
                 organizations who are interested in Google's technologies or use
                 them as part of their projects.
               </p>
-              <button className="event_btn">See Events</button>
+              <Link to="/events">
+                <button className="event_btn">See Events</button>
+              </Link>
             </div>
             <div className="col-sm-6 col-lg-3 px-1 mt-2 mt-lg-0">
               <div className="event_card">
