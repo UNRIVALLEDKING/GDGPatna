@@ -217,7 +217,7 @@ export default function Teams() {
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://t.me/UNRIVALLEDKING">
+                  <a target="_blank" href="https://t.me/unrivalled_king">
                     <BsTelegram size={25} />
                   </a>
                 </li>

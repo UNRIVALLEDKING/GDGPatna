@@ -31,7 +31,7 @@ export default function Faq() {
               </a>
             </div>
             <div class="collapse coll_fix" id="collapseExample1">
-              <div class="card card-body text-dark w=100">
+              <div class="card card-body w=100">
                 Google Developer Groups (GDGs) are for developers who are
                 interested in Google's developer technology; everything from the
                 Android, Chrome, Drive, and Google Cloud platforms, to product
@@ -54,7 +54,7 @@ export default function Faq() {
               </a>
             </div>
             <div class="collapse coll_fix" id="collapseExample">
-              <div class="card card-body text-dark w=100">
+              <div class="card card-body  w=100">
                 We are the Patna chapter of the global Google Developer Group
                 (GDG) program. We are supported by Google but not run by them.
                 <br />
@@ -78,7 +78,7 @@ export default function Faq() {
               </a>
             </div>
             <div class="collapse coll_fix" id="collapseExample2">
-              <div class="card card-body text-dark w=100">
+              <div class="card card-body  w=100">
                 Beginners, experts, literally everyone. Anyone with the passion
                 of learning, who’s fond of technology, passionate programmers ,
                 everybody can register and attend.
@@ -99,7 +99,7 @@ export default function Faq() {
               </a>
             </div>
             <div class="collapse coll_fix" id="collapseExample3">
-              <div class="card card-body text-dark w=100">
+              <div class="card card-body  w=100">
                 <span>
                   Simply click on Join Us button you can see in Navbar or at
                   home page. and if you aren't from Bihar then find the nearest
@@ -125,7 +125,7 @@ export default function Faq() {
               </a>
             </div>
             <div class="collapse coll_fix" id="collapseExample4">
-              <div class="card card-body text-dark w=100">
+              <div class="card card-body  w=100">
                 <span>
                   Reach out to us on various social media sites. You can find
                   all our Social media handles at the home page and at footer
@@ -150,7 +150,7 @@ export default function Faq() {
               </a>
             </div>
             <div class="collapse coll_fix" id="collapseExample5">
-              <div class="card card-body text-dark w=100">
+              <div class="card card-body  w=100">
                 <span>
                   Reach out to us on our Social media handles with #volunteers.
                 </span>
@@ -172,7 +172,7 @@ export default function Faq() {
               </a>
             </div>
             <div class="collapse coll_fix" id="collapseExample6">
-              <div class="card card-body text-dark w=100">
+              <div class="card card-body  w=100">
                 <span>
                   Yes. Each individual may register for only one ticket. You may
                   not register on behalf of anyone else.
@@ -194,7 +194,7 @@ export default function Faq() {
               </a>
             </div>
             <div class="collapse coll_fix" id="collapseExample7">
-              <div class="card card-body text-dark w=100">
+              <div class="card card-body  w=100">
                 <span>
                   We hold monthly meetups in Patna, on Last Sunday of each
                   month, Get help and Mentor others, It also includes time to
